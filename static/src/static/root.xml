@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="test_mobile.Root">
+        <Dialog>
+              <div class="container">
+                  <h2>Hello Standalone OWL</h2>
+                  <button t-on-click="ShowDialog" class="btn btn-danger">Show Dialog</button>
+            </div>
+        </Dialog>
+    </t>
+</templates>
